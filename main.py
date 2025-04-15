@@ -72,17 +72,28 @@
 
 #Working with an arithmetic calculator
 
-num1 = float(input("Enter the first number: "))
-operator = input("Enter operator i.e (+, -, *, /): ")
-num2 = float(input("Enter the second number: "))
-if operator == "+":
-    print(num1 + num2)
-elif operator == "-":
-    print(num1 - num2)
-elif operator == "*":
-    print(num1 * num2)
-elif operator == "/":
-    if num2 == 0:
-     print("Error!, cannot divide a number by zero")
-    else:
-     print(num1 / num2)
+# num1 = float(input("Enter the first number: "))
+# operator = input("Enter operator i.e (+, -, *, /): ")
+# num2 = float(input("Enter the second number: "))
+# if operator == "+":
+#     print(num1 + num2)
+# elif operator == "-":
+#     print(num1 - num2)
+# elif operator == "*":
+#     print(num1 * num2)
+# elif operator == "/":
+#     if num2 == 0:
+#      print("Error!, cannot divide a number by zero")
+#     else:
+#      print(num1 / num2)
+  
+  
+review = 4 
+if review >= 4.5:
+  print('Extraordinary')
+elif review >= 4:
+  print('Excellent')
+elif review >= 3:
+  print('Good')
+else:
+  print('Eh')
