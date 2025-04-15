@@ -130,13 +130,13 @@ max_points = max(gryffindor, hufflepuff, ravenclaw, slytherin)
 print("\nYou belong to...")
 
 if gryffindor == max_points:
-    print("🦁 Gryffindor!")
+    print("Gryffindor!")
 elif hufflepuff == max_points:
-    print("🦡 Hufflepuff!")
+    print("Hufflepuff!")
 elif ravenclaw == max_points:
-    print("🦅 Ravenclaw!")
+    print("Ravenclaw!")
 elif slytherin == max_points:
-    print("🐍 Slytherin!")
+    print("Slytherin!")
 
 
 # ******LONG METHOD*************
@@ -221,11 +221,11 @@ elif slytherin == max_points:
 # print("\nYou belong to...")
 
 # if gryffindor == max_points:
-#     print("🦁 Gryffindor!")
+#     print("Gryffindor!")
 # elif hufflepuff == max_points:
-#     print("🦡 Hufflepuff!")
+#     print("Hufflepuff!")
 # elif ravenclaw == max_points:
-#     print("🦅 Ravenclaw!")
+#     print("Ravenclaw!")
 # elif slytherin == max_points:
-#     print("🐍 Slytherin!")
+#     print("Slytherin!")
 
